@@ -1,5 +1,8 @@
 See github page for all features that must be made.
+I may need to update the prebuild docker image each time I update
 Also, for further documentation, we may need to break up the markdown files in to smaller files inside folders.
+
+Prebuilt docker failed to import starter template. I can't even seem to select a template, which is a shame. Also need to make app more responsive
 
 Currently, I am working on fleshing out supa-int. The documentation for Edge functions, Secrets and Webhooks may need to be fixed. We need better bucket support, too. We also need support for edge functions, secrets, and webhooks. This is for API and Stripe integration for now.
 
