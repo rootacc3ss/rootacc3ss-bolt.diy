@@ -1,4 +1,63 @@
-# bolt.diy
+# rootacc3ss's bolt.diy
+
+hello all! this is my fork of bolt.diy; it will always have all the updates as the main fork, but with my additional feature set. i am currently working on my own full fledged, cheaper and even better competitor to all of the no-code ai builders out there with a PLETHORA of features in the feature set. 
+
+but, i figured i would practice and contribute to the community first. :)
+
+see my thread on this fork here: 
+https://thinktank.ottomator.ai/t/i-am-making-a-fork-of-bolt-diy-to-work-on-new-features/7371
+
+# unique features in progress
+- claude sonnet 4, claude opus 4 and google gemini latest support (i have had issues with them, some reasoning models don't work well outside of those)
+
+- improved design functionality -- replicates some reverse engineered lovable techniques; lovable always has made better looking stuff than bolt
+
+- FULL supabase support -- been waiting on it forever with .diy
+
+- FULL stripe support -- not yet listed on readme, very helpful tool
+
+- context7 mcp server or API support for easy integrations; with that and perplexity, i can integrate nearly anything even when fully vibe coding (and eventually, general mcp server support)
+
+- enhanced rules system -- better global and project rule management
+
+- memory system (automatic and manual -- memories will work as they do in Windsurf)
+
+- better codebase context
+
+- better previous chat context
+
+- perplexity api ask (grabs context from perplexity using enhanced prompting when stuck or when you ask to do it to fix it)
+
+- better handling of larger, more complex prompts (will create a memory with a list and check things off one by one -- if it runs out of context window or calls, it will prompt you asking if you want to continue).
+
+- better error handling using context if multiple attempts to fix do not work, it will suggest chat/debug mode (see below) to increase context and use "thinking"/reasoning
+
+- FAR better commenting throughout code out of the box
+
+- FAR better logging and alerting out of the box
+
+- improved best practices and congruency throughout design and codebase
+
+- note taking system (optional) -- will log changes in markdown notes for changes you want to monitor and use memory to update notes when relevant edits are made
+
+- better github support -- bolt will sync with your repo and contextualize the changes you made on your own time or in another ide.
+
+*later:*
+- project planning module using claude task master
+
+- browser crawl/scrape/view to get live data and image on the build.
+
+- chat/debug mode; switches to a larger reasoning model if able to, looks more intently at the codebase and considers memory and context to plan a fix with you. i.e. claude sonnet 4 would switch to claude opus 4 or gemini in this mode.
+
+*bonus - i don't usually work on planned features from main:*
+- Upload documents for knowledge - UI design templates, a code base to reference coding style, etc. (i plan on adding the proposed web scraper above to allow you to easily scrape docs for your knowledge base)
+
+i hope you are all excited! i look forwards heavily to working on this, and i hope to bring you these features as life permits!
+
+cheers,
+~ keygen / ra
+
+# Usual bolt.diy readme below!
 
 [![bolt.diy: AI-Powered Full-Stack Web Development in the Browser](./public/social_preview_index.jpg)](https://bolt.diy)
 
@@ -38,7 +97,7 @@ you to understand where the current areas of focus are.
 If you want to know what we are working on, what we are planning to work on, or if you want to contribute to the
 project, please check the [project management guide](./PROJECT.md) to get started easily.
 
-## Requested Additions
+## Requested Additions (this may be out of date, i do not maintain this list but i occasionally work on it -- features msrked as missing may be added; i maintain the fork with the latest updates)
 
 - ✅ OpenRouter Integration (@coleam00)
 - ✅ Gemini Integration (@jonathands)
